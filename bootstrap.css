@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'tngani';
+  src: url('Font/tngani.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'anicb___';
+  src: url('Font/anicb___.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'partybusiness';
+  src: url('Font/partybusiness.ttf')  format('truetype');
+}
+
+/* --------- GENERAL ---------- */
+body{
+  font-family:partybusiness;
+  font-size: 25px;
+
+}
+
+header{
+  font-family:anicb___;
+  font-size:18px;
+}
+
+h2{
+  font-family:anicb___;
+  font-size:23px;
+  padding-bottom: 1em;
+}
+
+footer{
+  font-family:anicb___;
+  padding-top :0em;
+}
+h5{
+  font-size:41px;
+}
+ul{
+  list-style-type: none;
+}
+section{
+  padding: 1.5em;
+}
+
+
+/* --------- ID ---------- */
+
+#fellows{
+  background-image:url(Images/bg_light.png); 
+
+}
+#reward{
+  background-image:url(Images/bg_dark.png);
+  color: #FFFFFF;
+}
+#hunters{
+  background-image:url(Images/bg_light.png);
+}
+#ring{
+  background-image:url(Images/bg_dark.png);
+}
+#army{
+  background-image:url(Images/bg_light.png);  
+}
+
+#contact{
+  background-image:url(Images/bg_dark.png);
+  color: #FFFFFF;
+}
+
+/* -------- CLASSES --------- */
+
+/* DIVERS */
+
+.chara-spe{
+  font-family: 'tngani';
+  color: #ff8132;
+  font-size: 26px;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background-color: #ff8132;
+}
+
+.navbar a:hover{
+  text-decoration: underline;  
+}
+
+/* CAROUSEL */
+
+.text-carousel{
+  font-size:31px;
+}
+.img-carousel{
+  max-height: 450px;
+  max-width: 1350px;
+  object-fit: cover;
+}
+
+/* MOST WANTED DIV FELLOWS */
+
+.deco{
+  opacity:0;
+  transition: 0.2s ease;
+  font-family:partybusiness;
+  font-size: 30px;
+}
+
+.badge-most:hover .deco{
+  opacity:1;
+  color: #ff8132;
+}
+.badge-most:hover{
+  color: #ff8132;
+}
+.badge-most{
+  transition: 0.2s ease;
+  text-align: center;
+  color: #808080;
+  font-size: 20px;
+  font-family: anicb___ ;
+}
+.pills{
+  padding-bottom: 15px;
+}
+/* FELLOWS */
+
+
+.under-title{
+  font-size:18px;
+}
+
+.card_fellow{
+  background-color:#000000;
+}
+.contenu_titre  {
+  color:#FFFFFF;
+  opacity: 1;
+  transition: 0.5s ease;
+  text-align: center;
+  font-size: 27px;
+  transform: translate(0%, 0%);
+}
+.card:hover .contenu_titre {
+  font-size: 20px;
+  transform: translate(0%, 150%);
+  color: #ffffff;
+}
+.card-img-top {
+  opacity: 0.4;
+  background-color:#FFFFFF;
+  transition: 0.5s ease;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card:hover .card-img-top {
+  opacity: 1;
+}
+
+.card-text{
+  justify-content: center;
+  color:#D3D3D3;
+  padding: 0.5em;
+}
+
+.card:hover .contenu_worth{
+  opacity: 0;
+}
+.card:hover .contenu_dead{
+  opacity: 0;
+}
+.contenu_worth {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius:25px;
+  padding: 8px 15px;
+  text-align: center;
+  transition: 0.5s ease;
+  opacity: 1;
+  font-size: 22px;
+}
+
+.contenu_dead {
+  border-radius:5px;
+  text-align: center;
+  font-weight:bold;
+  font-size: 30px;
+  transition: 0.5s ease;
+  opacity: 1;
+  color: #ff8132;
+}
+
+.line_through {
+text-decoration: line-through;
+text-decoration-color: #ff8132;
+}
+
+.red {
+  color: #ff8132;
+}
+#ring .card{
+  margin-bottom:1em;
+}
+
+/* REWARDS */
+
+#reward button{
+  color: #ff8132;  
+  font-size: 20px;
+  padding: 15px;
+  font-family: anicb___ ;
+}
+
+/* HUNTERS */
+.img_hunter{
+  max-height: 110px;
+  max-width: 110px;
+  object-fit: cover;
+}
+#hunters a:link{
+  color: #000000;
+}
+
+/* ABOUT THE RING */
+
+.card-header-ring{
+  background-color: #ff8132;
+  color: #FFFFFF;
+}
+
+#ring h2{
+  color: #FFFFFF;
+}
+
+#ring td{
+  color: #808080;  
+}
+#ring img{
+  max-width:150px;  
+}
+
+/* JOIN THE ARMY */
+
+#army img{
+  max-width: 400px;
+}
+
+#army button{
+  padding: 15px;
+  color: #ff8132;  
+
+}
+
+.special-text-army{
+  font-family: anicb___ ;
+  color: #ff8132;  
+  font-size: 20px;  
+  text-align: center;
+  padding-top: 35px;
+}
+
+
+/* CONTACT US */
+#contact img{
+  max-width: 500px;
+  max-height: 300px;
+}
+
+/* FOOTER  */
+.container-footer{
+  background-color: #ff8132;
+  color: #FFFFFF;
+  font-size:15px;
+
+}
+.container-footer a:link{
+  color: #FFFFFF;  
+}
