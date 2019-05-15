@@ -11,42 +11,13 @@
   <link href="bootstrap.css" rel="stylesheet" media="all" type="text/css">
 
   <title>My Precious</title>
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Permanent+Marker|Roboto|Source+Sans+Pro" rel="stylesheet"> 
 </head>
 
 <body>
   <!-- <h1>Hello, world!</h1> -->
 
-    <header class="container header">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#"> <img src="Images/logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#fellows">Fellows  |<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <li class="nav-item active">
-                <a class="nav-link" href="#ring">The Ring  |<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#reward">Reward  |<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#hunters">Hunters  |<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#army">Join |<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<?php require 'header.html' ?>
 
     <!-- Carrousel -->
   <main class="container ">
@@ -284,29 +255,7 @@
   </div>
     </section>
   </main>
-    <footer id="footer" class="container">
-    	<div class="container-footer">
-      <div class="row">
-      <ul class="col-sm-4">
-        <li><a href="about.html">About us</a></li>
-        <li><a href="#fellows">Fellows</a></li>
-        <li><a href="#army">Join our army</a></li>
-      </ul>
-      <ul class="col-sm-4">
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="reward">Reward conditions</a></li>
-        <li><a href="legal.html">Legal mentions</a></li>
-      </ul>
-      <div class="col-sm-4">
-        <a href="http://www.sauron4ever.com">Sauron4Ever.com</a>
-        <a href="http://www.twitter/real_s4ur0n.com">Follow him also on Twitter!</a>
-      </div>
-      </div>
-  </div>
- 
-    </footer>
-
- 
+  <?php require 'footer.html' ?>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -11,6 +11,7 @@
   src: url('Font/partybusiness.ttf')  format('truetype');
 }
 
+
 /* --------- GENERAL ---------- */
 body{
   font-family:partybusiness;
@@ -19,7 +20,7 @@ body{
 }
 
 header{
-  font-family:anicb___;
+  font-family:Merienda+One;
   font-size:18px;
 }
 
