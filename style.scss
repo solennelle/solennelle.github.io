@@ -1,0 +1,28 @@
+$colorOne: #FF8132;
+$colorTwo: #ede00f;
+$colorThree: #313131;
+
+@mixin ring($width, $border, $color) {
+  width: $width;
+  height: $width;
+  border:$border solid $color;
+  border-radius: 50%;
+  box-shadow: $border/4 $border/4 $border/2 darken($color, 15);
+}
+
+.ring-one {
+  @include ring(50px, 5px, $colorOne);
+}
+.ring-two {
+  @include ring(115px, 10px, $colorTwo);
+}
+
+@for $i from 1 through 6 {
+  .ring-three:nth-child(#{$i}) {
+    @include ring(50px * $i/2, 5px * $i/2, $colorThree);
+    margin-right: -15px - $i*4;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
