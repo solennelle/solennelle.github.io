@@ -18,7 +18,9 @@
   <!-- <h1>Hello, world!</h1> -->
 
 <?php require 'header.html' ?>
-
+  <section id="precious-ring">
+      <a href="/precious.php" class="btn btn-dark"> S C S S </a>
+  </section>
     <!-- Carrousel -->
   <main class="container ">
       <div class="carousel">
@@ -65,7 +67,7 @@
         </div>
       </div>
 
-    <section id="fellows">
+      <section id="fellows">
       <h2><span class="chara-spe">Ij </span>Fellows wanted dead <span class="under-title">(or alive if you want to eat them later) </span><span class="chara-spe"> Ij</span></h2>
       <!-- Pills-->
       

@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php require 'header.html' ?>
-    <h1>SCSS</h1>
+    <h1 class="text-center p-3">SCSS</h1>
     <main class="container-fluid">
         <div class="row justify-content-center">
             <div class="ring-one"></div>
